@@ -162,7 +162,7 @@ padding-top: 30px;
 .tops{
     margin-top: 10px;
 }
- @media(max-width: 360px){
+ @media(max-width: 450px){
     .row-content-right{
         margin: 0px auto;
         padding: 100px 0px 10px 0px;
