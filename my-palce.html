@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="tools/bootstrap.min.css">
+    <link rel="stylesheet" href="tools/style.css">
+    <title>in my place</title>
+</head>
+<body>
+    <div>
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-sm-2 left show">
+                    <div class="row row-content">
+                        <div class="col-12 col-sm-12">
+                            <img src="./image/logo.png" width="180px" height="50px" alt="">
+                        </div>
+                        <div class="text-side">
+                            <h4>home</h4>
+                            <h4>playlist</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-10 col-12 right">
+                    <div class="tops">
+                        <a href="list.html"><img class="img-3" src="./image/5.png" width="25px" height="25px" alt=""></a>
+                    </div>
+                    <div class="container">
+                        <div class="row row-content-right bg-4">
+                            <div  class="offset-sm-1">
+                                <div class="media"><!--here-->
+                                    <img src="./image/place.jpg" width="120px" height="120px"
+                                     class="d-flex mr-4   img-thumbnail align-self-center" alt="img-1">
+                                    <div class="media-body text-1">
+                                        <h1 class="">In My Place</h1>
+                                        <p>coldplay</p>
+                                    </div>   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="container">
+                            <div class="row row-btn">
+                                <div class="col-sm-12 col-12">
+                                    <audio id="music" src="./song/Coldplay - In My Place.mp3"></audio><!--here-->
+                                </div>
+                                <div class="col-sm-12 col-12 align-self-center img-head">
+                                        <a href="hypnotised.html"><img src="./image/next-1.png" width="40px" height="40px" class="img-fluid img-l" alt=""></a>
+                                        <img src="./image/3.png" id="img-1" width="130px" id="pButton"  class="play img-fluid img-1" height="100px" onclick="playAudio()" alt="">
+                                        <a href="speed.html"><img src="./image/next.png" width="40px" height="40px" class="img-fluid img-r" alt=""></a>
+                                </div>  
+                                <div class="col-sm-12 sol-12">
+                                    <img src="./image/-.png" width="40px" height="40px" class="img-fluid img-4" alt=""
+                                    onclick="document.getElementById('music').volume -= 0.1">
+                                    <img src="./image/+.png" width="40px" height="40px" class="img-fluid img-4" alt=""
+                                     onclick="document.getElementById('music').volume += 0.1">
+                                    
+                                </div>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </div>
+
+
+      <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+      <script src="tools/jquery.slim.min.js"></script>
+      <script src="tools/popper.min.js"></script>
+      <script src="tools/bootstrap.min.js"></script>
+      <script src="./tools/main.js"></script>
+    </body>
+</html>

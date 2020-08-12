@@ -1,0 +1,204 @@
+.body-list{
+    height: 100%;
+    background-color: black
+
+}
+.list-head{
+    padding-top: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+.list a{
+    color: white;
+}
+.list {
+    text-align: center;
+    padding: 20px;
+}
+.list li{
+    padding: 10px;
+    background-color: #44404000;
+}
+
+
+
+
+
+
+
+
+.body{
+    background-image: url(../image/wp3655420-coldplay-wallpaper-concert.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.logo{
+text-align: center;
+align-items: center;
+padding-top: 30px;
+}
+.click{
+    align-items: center;
+    text-align: center;
+    padding-top: 130px;
+}
+.row-content{
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    min-height: 300px;
+}
+.row-content-right{
+    color: white;
+    margin: 0px auto;
+    padding: 150px 0px 10px 0px;
+    min-height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.bg-1{
+    background-image: url(../image/bg-1.jpg);
+   
+}
+.bg-2{
+    background-image: url(../image/bg-2.jpg);
+}
+.bg-3{
+    background-image: url(../image/bg-3.jpg);
+}
+.bg-4{
+    background-image: url(../image/bg-4.jpg);
+}
+.bg-5{
+    background-image: url(../image/bg-1.jpg);
+}
+.bg-6{
+    background-image: url(../image/bg-6.png);
+}
+.bg-7{
+    background-image: url(../image/bg-7.jpg);
+}
+
+
+
+
+
+
+.row-btn{
+    margin: 0px auto;
+    padding: 100px 0px 10px 0px;
+    min-height: 100px;
+    text-align: center;
+
+}
+.text-1{
+    text-align: left;
+}
+.container-fluid {
+    width: 100%;
+    margin:0px !important;
+    padding: 0px !important;
+}
+.row {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.left {
+    width: 100%;
+    height: 100vh;
+    background-color: #9c9c9c;
+    background-size: cover;
+    color: black;
+ }
+
+ .right{
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+    background-size: cover;
+    color: rgb(67, 67, 67);
+   
+ }
+ .p-style{
+    font-size: 20px;
+    color:white;
+    font-weight: bold;
+    margin:auto;
+ }
+
+ .text-side{
+     margin-left: 10px;
+ }
+
+ .img-1{
+    background-color: red;
+    border-radius: 60px;
+ }
+ .img-l{
+    margin-right: 50px;
+ }
+ .img-r{
+    margin-left: 50px;
+ }
+.img-4{
+    border-radius: 55px;
+    background-color:#be3ebe;
+    margin-top: 50px;
+}
+.img-3{
+    border-radius: 15px;
+    background-color: lawngreen;
+}
+.tops{
+    margin-top: 10px;
+}
+ @media(max-width: 360px){
+    .row-content-right{
+        margin: 0px auto;
+        padding: 100px 0px 10px 0px;
+        min-height: 300px;
+
+    }
+
+    .img-1{
+        background-color: red;
+        border-radius: 60px;
+        width:80px;
+        height: 50px;
+     }
+     .img-l{
+        margin-right: 10px;
+        width: 40px;
+     }
+     .img-r{
+        margin-left: 10px;
+        width: 40px;
+     }
+     .show{
+         display: none;
+     }
+    
+    .body-list{
+        height: 100%;
+        background-color: black;
+        background-image: url(../image/wp4248921-everglow-wallpapers.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+    .body{
+        background-image: url(../image/kk.jpg);
+    }
+
+ }
